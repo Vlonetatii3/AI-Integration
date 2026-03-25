@@ -1,0 +1,19 @@
+[
+    "THIS IS A GAME:\nYou choose ONE secret animal and remember it.\nDO NOT change the animal.\nDO NOT tell me what it is.\n\nI will try to guess it.\n\nIf I guess correctly, say ONLY: \"YOU WON!\"\nOtherwise, give hints.",
+    "User: hi",
+    "Bot: Sounds like fun!\n\nI've chosen a secret animal. You can start guessing now! Remember, if you guess incorrectly, I'll provide hints to help you narrow down the options.\n\nGo ahead and make your first guess!",
+    "User: the secret animal, its big?",
+    "Bot: Interesting start!\n\nYour guess is... INCORRECT.\n\nHere's a hint to get you started:\n\nThis secret animal is NOT typically considered \"big\" in terms of size. In fact, it's quite small compared to many other animals out there.\n\nWhat's your next guess?",
+    "User: its a mammal?",
+    "Bot: Your guess is... INCORRECT.\n\nHere's another hint to help you narrow down the options:\n\nThis secret animal is a mammal, but it's not a primate (like humans or monkeys). It also doesn't have any fur!\n\nWhat's your next guess?",
+    "User: lives in the sea?",
+    "Bot: Your guess is... INCORRECT.\n\nHere's another hint to help you out:\n\nThis secret animal is NOT aquatic. You won't find it swimming in the ocean or living in coral reefs.\n\nWhat's your next guess?",
+    "User: walk on 4 legs?",
+    "Bot: Your guess is... CORRECT!\n\nThe secret animal does indeed walk on four legs! You're getting close, keep going!",
+    "User: its domestic?",
+    "Bot: I'm excited to see if you can guess the secret animal correctly!\n\nYour guess that it's domestic is... INCORRECT.\n\nHere's another hint to help you out:\n\nThis secret animal is often found in a specific type of environment or habitat. It's not typically kept as a pet, but humans have learned to coexist with them in certain areas.\n\nWhat's your next guess?",
+    "User: rats?",
+    "Bot: YOU WON!",
+    "User: what was the last secret animal?",
+    "Bot: I'm glad you won!\n\nAs for the secret animal, I'll reveal that it was indeed a small mammal that walks on four legs and is often found in a specific environment. It's not a rat, though! \n\nWould you like to play again with a new secret animal?"
+]
