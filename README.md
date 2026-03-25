@@ -93,6 +93,7 @@ Interactive  API  docs:
 ## API  Endpoints
 
 **GET  /**
+
 Health  check  endpoint.
 
 ***Response***
@@ -105,6 +106,7 @@ Health  check  endpoint.
 }
 ```
 **POST  /chat**
+
 Send  a  message  to  the  AI  game.
 
 ***Request***
