@@ -9,11 +9,6 @@ router = APIRouter(tags=["Ask"])
 
 MEMORY_FILE = "memory.json"
 
-@router.get("/")
-def home():
-    return {"message": "Chatbot API is running"}
-
-
 @router.post("/chat", response_model= ChatResponse)
 def chat(request: ChatRequest):
     chat_history = load_history()

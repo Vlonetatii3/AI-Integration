@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal Guessing AI</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1>Animal Guessing AI</h1>
+        <p>Ask questions and guess the secret animal.</p>
+      </div>
+      <button id="resetBtn" class="reset-btn">Reset Game</button>
+    </header>
+
+    <main class="chat-container" id="chatContainer">
+      <div class="message bot">
+        <div class="bubble">
+          Hello. I picked a secret animal. Start asking questions.
+        </div>
+      </div>
+    </main>
+
+    <form class="input-area" id="chatForm">
+      <input
+        type="text"
+        id="messageInput"
+        placeholder="Ask something like: Does it fly?"
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
