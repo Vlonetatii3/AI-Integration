@@ -13,6 +13,7 @@ MEMORY_FILE = "memory.json"
 def home():
     return {"message": "Chatbot API is running"}
 
+
 @router.post("/chat", response_model= ChatResponse)
 def chat(request: ChatRequest):
     chat_history = load_history()
@@ -39,6 +40,7 @@ Otherwise, give hints."""
     save_history(chat_history)
 
     return {"reply": reply}
+
 
 
 @router.post("/reset")

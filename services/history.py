@@ -1,5 +1,6 @@
 import json
 
+
 def save_history(history):
     with open("memory.json", "w") as file:
         json.dump(history, file)

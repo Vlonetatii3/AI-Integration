@@ -13,4 +13,5 @@ def ask_ollama(history):
 
     response.raise_for_status()
     data = response.json()
+
     return data["response"]
