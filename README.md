@@ -80,7 +80,7 @@ Install  Python  dependencies:
 
 Start  the  **FastAPI**  app  with:
 
-	```uvicorn  main:app  --reload```
+```uvicorn  main:app  --reload```
 	
 The  server  will  be  available  at:
 
