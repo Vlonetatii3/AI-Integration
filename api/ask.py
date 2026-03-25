@@ -6,7 +6,6 @@ from services.ask import ask_ollama
 
 router = APIRouter(tags=["Ask"])
 
-
 MEMORY_FILE = "memory.json"
 
 @router.post("/chat", response_model= ChatResponse)
@@ -35,7 +34,6 @@ Otherwise, give hints."""
     save_history(chat_history)
 
     return {"reply": reply}
-
 
 
 @router.post("/reset")
